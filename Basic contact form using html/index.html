@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form using HTML</title>
+  </head>
+  <body bgcolor="#1ea4c9">
+    <center>
+      <form 
+        action="https://formsubmit.co/abc@gmail.com"
+        method="post"
+      >
+        <font face="Arial, Helvetica" color="white">
+          <h1>Contact Form</h1>
+        </font>
+        <p>
+          <font color="white" face="Helvetica">
+            Please fill in your Information and we'll be sending you order in no
+            time
+          </font>
+        </p>
+        <br />
+        <table cellspacing="22">
+          <tr>
+            <td>
+              <font color="white" face="Helvetica">Your name:</font>
+            </td>
+            <td>
+              <input required type="text" placeholder="Firstname" size="21" />
+              <input required type="text" placeholder="Lastname" size="21" />
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <font color="white" face="Helvetica" >Your Email:</font>
+            </td>
+            <td >
+              <input 
+                required
+                type="email"
+                placeholder="e.g. hello@contact.net"
+                size="48"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><font color="white" face="Helvetica">Phone:</font></td>
+            <td>
+              <input required type="tel" placeholder="###" size="12" />
+              <input required type="tel" placeholder="###" size="12" />
+              <input required type="tel" placeholder="###" size="12" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <font color="white" face="Helvetica">Message Subject:</font>
+            </td>
+            <td>
+              <select name="subject" >
+                <option value="other">Other</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><font color="white" face="Helvetica">Message:</font></td>
+            <td>
+              <textarea required cols="46" rows="5" name="detail"></textarea>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <font color="white" face="Helvetica">Verification:</font>
+            </td>
+            <td bgcolor="white">
+              <input type="checkbox" name="option1" />
+              <label for="checkbox">I'm not a robot </label>
+              <img align="center" src="./not a robo.png" height="30" width="30">
+            </td>
+          </tr>
+        </table>
+        <br>
+        <hr size="2" color="white" width="700" />
+        <input required type="submit" value="SUBMIT FORM" bgcolor="#1ea4c9" color="#1ea4c9" />
+      </form>
+    </center>
+  </body>
+</html>
